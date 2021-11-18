@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondmuscia"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnSalsa"
+        android:layout_width="180dp"
+        android:layout_height="150dp"
+        android:background="@drawable/pause"
+        android:backgroundTint="@color/purple_200"
+        android:onClick="salsa"
+        android:text="Salsa"
+        android:textColor="#FAF9F9"
+        android:textSize="20dp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.93"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.375" />
+
+    <Button
+        android:id="@+id/btnRock"
+        android:layout_width="180dp"
+        android:layout_height="150dp"
+        android:background="@drawable/pause"
+        android:backgroundTint="#D6B5B5"
+        android:onClick="rock"
+        android:text="Rock"
+        android:textColor="#FAF9F9"
+        android:textSize="20dp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.93"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.676" />
+
+    <Button
+        android:id="@+id/btnPop"
+        android:layout_width="180dp"
+        android:layout_height="150dp"
+        android:background="@drawable/pause"
+        android:backgroundTint="#D6B5B5"
+        android:onClick="pop"
+        android:text="Electro"
+        android:textColor="#FAF9F9"
+        android:textSize="20dp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.926"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.972" />
+
+    <Button
+        android:id="@+id/btnRegue"
+        android:layout_width="180dp"
+        android:layout_height="150dp"
+        android:background="@drawable/pause"
+        android:backgroundTint="#D6B5B5"
+        android:onClick="regue"
+        android:text="Regue"
+        android:textColor="#FAF9F9"
+        android:textSize="20dp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.069"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.676" />
+
+    <Button
+        android:id="@+id/btnHauyno"
+        android:layout_width="180dp"
+        android:layout_height="150dp"
+        android:background="@drawable/pause"
+        android:backgroundTint="#D6B5B5"
+        android:onClick="huayno"
+        android:text="Huayno"
+        android:textColor="#FAF9F9"
+        android:textSize="20dp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.069"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.375" />
+
+    <Button
+        android:id="@+id/btnBaladas"
+        android:layout_width="180dp"
+        android:layout_height="150dp"
+        android:background="@drawable/pause"
+        android:backgroundTint="#D6B5B5"
+        android:onClick="baladas"
+        android:text="Baladas"
+        android:textColor="#FAF9F9"
+        android:textSize="20dp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.069"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.972" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="378dp"
+        android:layout_height="208dp"
+        android:layout_marginStart="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/muscia" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
